@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- navbar --- section 1 -->
+
+  <div class="header">
+    <h1><small>Hello I'm</small>  <i>Sumaiya Nawsheen</i></h1>
+    <h3>A passionate Web developer.</h3>
+  </div>
+  
+  <div id="navbar" class="topnav">
+    <a href="javascript:void(0)">Home</a>
+    <a href="#about">About</a>
+    <a href="#favourites">Favourites</a>
+    <a href="#lifeStyle">Life Events</a>
+  
+    <a href="https://www.google.com/search?q=baking&sxsrf=AOaemvLCFXbE8wwuHWVbdmQR7C-qe2S_sA:1634549144422&tbm=isch&source=iu&ictx=1&fir=FQPjDH3L8zR58M%252Coe5MIno2yDxexM%252C_%253BxQmNMIpXpFpnNM%252CBk-uKkmKyF0osM%252C_%253BXwX8u54VXDhgkM%252CPBY2sMi59Ac3GM%252C_%253BOmsTtctzgnBh3M%252CirRoaRi0hhV9fM%252C_%253B8lQV6qyvxIOOkM%252CS7sDQ93do-43yM%252C_%253B0C59EXuvjWpa-M%252C79HszrBgcevDlM%252C_&vet=1&usg=AI4_-kQFwpE1j0aBHgoGGpe3s_JygkcABQ&sa=X&ved=2ahUKEwjSzPuI0tPzAhWZH7cAHRFsCOYQ_h16BAgaEAE#imgrc=_gjIOFgdb_4A0M&imgdii=OtMQnZyCe_rMNM" target="_blank">Hobby</a>
+    <a href="https://www.google.com/search?q=singing&tbm=isch&ved=2ahUKEwiet86L0tPzAhUHHysKHUr0BhsQ2-cCegQIABAA&oq=singing&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQ7wMQJzoHCAAQsQMQQzoICAAQgAQQsQM6CwgAEIAEELEDEIMBULC5A1jKxQNgickDaABwAHgAgAGwAogBnAqSAQcwLjcuMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=nT1tYd70Ooe-rAHK6JvYAQ" target="_blank">Activities</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  
+<!-- about -->
+<section class="personal-info" id="about">
+  <div class="row">
+    <div class="col-4 col-s-3 menu">
+    
+     <img class="profilePic"
+     src="https://t4.ftcdn.net/jpg/02/45/28/17/360_F_245281783_3zeOLu7mhjUmYbFlBwSNsfwQmQZzukWo.jpg" alt="">
+    </div>
+  
+    <div class="col-7 col-s-9">
+      <h1>Who am I?</h1>
+      <h5>I am an student of CSE Department in <a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a> . I am living at Dhaka , Bangladesh. This is my last semester of undergraduate life and I'm doing CSE391 course which in named as <a href="https://piazza.com/class/kuh32v9clze44p?cid=10" target="_blank">"Programming for Internet"</a>. Additionally, I am very fond of doing new web based projects so that I am trying to develop my skill in this area.</h5>
+    </div>
+  </div>
+</section>
+<!-- favourites -->
+<section id="favourites" class="favourite">
+  <h1>My Favourites</h1>
+  <div class="qoute">
+    <q>A smile is happiness you'll find right under your nose.</q>
+  </div>
+
+  <div>
+    <div class="col-3 col-s-3">
+      <h3>Favourite Foods</h3>
+      <ol>
+        <li>Burger</li>
+        <li>Biriyani</li>
+        <li>Pizza</li>
+        <li>Fried Chicken</li>
+        <li>Hilsha Fish</li>
+      </ol>
+     </div>
+     <div class="vl"></div>
+     <div class="col-3 col-s-3">
+      <h3>Favourite Activities</h3>
+      <ul>
+        <li>Listening Music</li>
+        <li>Singing Songs</li>
+        <li>Watching TV</li>
+        <li>Baking</li>
+        <li>Travelling</li>
+      </ul>
+     </div>
+     <div class="vl2"></div>
+     <div class="col-3 col-s-3">
+      <h3>Favourite Games</h3>
+      <ol>
+        <li>Badminton</li>
+        <li>Ludo</li>
+        <li>Uno</li>
+        <li>Temple Run</li>
+        <li>Cricket</li>
+      </ol>
+     </div>
+  </div>
+</section>
+<!--  -->
+<section id="lifeStyle" class="lifeStyle">
+  <h1>My Life Events</h1>
+  <div>
+    <p class="para">As I'm a full time student, I try to complete my studies , assignments on time. Previously I could hold continuity my good results. Beside academic studies, I always participate in different extra curricular activities  </p>
+    <h4 class="para"> My Academic Results </h4>
+    <!-- table -->
+  <table>
+    <tr>
+      <th colspan="2">Examination & Board</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>HSC</td>
+      <td>Dhaka</td>
+      <td>GPA 5</td>
+    </tr>
+    <tr>
+      <td>SSC</td>
+      <td>Dhaka</td>
+      <td>GPA 5</td>
+    </tr>
+    <tr>
+      <td>JSC</td>
+      <td>Dhaka</td>
+      <td>GPA 5</td>
+    </tr>
+  </table>
+
+    <p class="para">Therefore, I also love to spend time with my family, maintain good relationship with neighbours. When I get holidays, I like to visit my relatives house.</p>
+    <p class="para">However, now I am learning some web development technologies like HTML, CSS, JavaScript, Bootstrap, React library . I like to do new projects using various tools, techniques, libraries, plugins.</p>
+    <div class="col-5 col-s-9">
+      <img src="./images/html1.png" alt="" >
+    </div>
+    <div class="col-5 col-s-9">
+      <img src="./images/css.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="para">
+    <h4> Last Updated: <span id='modify'></span> </h4>
+    <h4>
+      Page location :  <span id='location'></span>
+    </h4>
+  </div>
+  <footer class="copyright">&copy; All rights are reserved.</footer> 
+</section>
+
+      <script src="./portfolio.js"></script>
+</body>
+</html>
